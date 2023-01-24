@@ -1,0 +1,10 @@
+
+
+.logo-footer {
+    display: flex;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+}

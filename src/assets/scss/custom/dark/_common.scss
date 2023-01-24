@@ -1,0 +1,57 @@
+//Topnav
+#topnav {
+    .logo {
+        .l-dark,
+        .logo-light-mode {
+            display: none !important;
+        }
+        .l-light,
+        .logo-dark-mode {
+            display: inline-block !important;
+        }
+    }
+}
+
+.style-switcher {
+    .t-dark,
+    .t-rtl-light,
+    .t-ltr-dark {
+        display: none;
+    }
+    .t-light,
+    .t-rtl-dark {
+        display: inline-block;
+    }
+}
+
+[dir="rtl"] {
+    .style-switcher {
+        .t-rtl-dark,
+        .t-ltr-light {
+            display: none;
+        }
+        .t-ltr-dark {
+            display: inline-block;
+        }
+    }
+}
+
+//Offcanvas
+.offcanvas.bg-white {
+    .offcanvas-header {
+        .dark-version {
+            display: inline-block;
+        }
+        .light-version {
+            display: none;
+        }
+        .btn-close {
+            background: transparent escape-svg($btn-close-bg) center / $btn-close-width auto no-repeat !important;
+            color: $dark !important;
+        }
+    }
+}
+
+.shape > svg path{
+    fill: $bg-white-color;
+}
