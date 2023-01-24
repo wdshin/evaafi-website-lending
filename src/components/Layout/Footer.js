@@ -93,7 +93,7 @@ class Footer extends Component {
                         }
                       >
                       The first decentralized lending protocol on TON that lets users lend or borrow assets without going to a centralized intermediary.</p>
-                      <ul
+                      {/* <ul
                         className={
                           this.props.isLight
                             ? 'list-unstyled social-icon social mb-0 m t-4'
@@ -132,7 +132,7 @@ class Footer extends Component {
                             />
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </Col>
 
                     <Col lg={2} md={4} className="col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
@@ -143,7 +143,7 @@ class Footer extends Component {
                             : 'text-light footer-head'
                         }
                       >
-                        Company
+                        Eco-system
                       </h5>
                       <ul className="list-unstyled footer-list mt-4">
                         {this.state.grid1.map((grid, key) => (
@@ -170,7 +170,7 @@ class Footer extends Component {
                             : 'text-light footer-head'
                         }
                       >
-                        Usefull Links
+                        Community
                       </h5>
                       <ul className="list-unstyled footer-list mt-4">
                         {this.state.grid2.map((grid, key) => (
@@ -270,7 +270,7 @@ class Footer extends Component {
                         rel="noopener noreferrer"
                       >
                         
-                      </Link>.</p>
+                      </Link></p>
                   </div>
                 </Col>
 

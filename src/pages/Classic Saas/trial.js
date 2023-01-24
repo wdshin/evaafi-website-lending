@@ -14,7 +14,7 @@ const Trial = () => {
                     Enjoy fully decentralized platform operated by community
                   </h4>
                   <p className="text-white-50 mb-0">
-                    Evaa Protocol is brilliant example of community fovernance.
+                    Evaa Protocol is brilliant example of community governance.
                   </p>
                 </div>
               </Col>

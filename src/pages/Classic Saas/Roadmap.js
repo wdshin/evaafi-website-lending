@@ -23,14 +23,14 @@ const RoadmapData = [
   {
     id: 1,
     date: "December, 2022",
-    title: "Planning",
+    title: "Concept Planning",
     icon: "uil uil-pen",
   },
   {
     id: 2,
     date: "March, 2023",
     title: "Testnet v1 Starts",
-    icon: "uil uil-bitcoin",
+    icon: "uil uil-clipboard-blank",
     isClass: true,
     istextColor: true,
     isDate: true,
@@ -40,13 +40,13 @@ const RoadmapData = [
     id: 3,
     date: "April, 2023",
     title: "Mainnet v1 Starts",
-    icon: "uil uil-clipboard-blank",
+    icon: "uil uil-money-insert ",
   },
   {
     id: 4,
     date: "April, 2023",
     title: "New assets",
-    icon: "uil uil-money-insert",
+    icon: "uil uil-bitcoin",
     isClass: true,
     istextColor: true,
     isDate: true,
@@ -71,7 +71,7 @@ const RoadmapData = [
 
 ];
 
-const Partners = () => {
+const Roadmap = () => {
   const [isOpen, setOpen] = useState(false);
 
 
@@ -173,4 +173,4 @@ const Partners = () => {
     </React.Fragment>
   );
 };
-export default Partners;
+export default Roadmap;

@@ -6,10 +6,6 @@ import FeatherIcon from "feather-icons-react";
 
 import CountUp from "react-countup";
 
-// Modal Video
-import ModalVideo from "react-modal-video";
-import "../../../node_modules/react-modal-video/scss/modal-video.scss";
-
 const CTA = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -33,30 +29,23 @@ const CTA = () => {
               </p>
 
               <div className="mt-4">
-                <Link to="#" className="btn btn-primary m-1">
+                <a href="https://www.youtube.com/watch?v=JNHID5Pq-sI&ab_channel=TONANADeFiHUB" className="btn btn-primary m-1">
                   Tokenomics <i className="uil uil-angle-right-b"></i>
-                </Link>{" "}
-                <Link
-                  to="#"
-                  onClick={() => setOpen(true)}
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=JNHID5Pq-sI&ab_channel=TONANADeFiHUB"
                   className="btn btn-icon btn-pills btn-primary m-1 lightbox"
                 >
                   <FeatherIcon
                     icon="video"
                     className="icons"
                   />
-                </Link>{" "}
+                </a>
                 <span className="fw-bold text-uppercase small align-middle">Pitch</span>
               </div>
             </div>
           </Col>
         </Row>
-        <ModalVideo
-          channel="youtube"
-          isOpen={open}
-          videoId="yba7hPeTSjk"
-          onClose={() => setOpen(false)}
-        />
       </Container>
     </React.Fragment>
   );

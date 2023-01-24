@@ -105,7 +105,7 @@ class Layout extends Component {
               return <FooterWithoutMenuLightSocialOnly className="" />;
             }
             else {
-              return <Footer />;
+              return <FooterWithoutMenuLightSocialOnly />;
             }
           })()}
 

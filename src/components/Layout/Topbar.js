@@ -496,20 +496,16 @@ class Topbar extends Component {
                   <ul className="buy-button list-inline mb-0">
                    
 
-                    {/* <li className="list-inline-item ps-1 mb-0">
-                      <Link
-                        to="//1.envato.market/landrickreactjs"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <div id="buyButton" className="btn btn-icon btn-pills shoppingbtn">
-                          <FeatherIcon
-                            icon="shopping-cart"
-                            className="fea icon-sm"
-                          />
-                        </div>
-                      </Link>
-                    </li> */}
+                  <Link
+                    to="#"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
+                    App
+                    <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span>
+                  </Link>
                   </ul>
                 );
               }
@@ -518,7 +514,7 @@ class Topbar extends Component {
             <div id="navigation" style={{ display: this.state.isOpen ? 'block' : 'none' }}>
 
               <ul className="navigation-menu nav-dark" id="top-menu">
-                {/* <li><Link to="/index" className="sub-menu-item">Home</Link></li> */}
+                <li><Link to="/index" className="sub-menu-item">Home</Link></li>
                 <li className="has-submenu parent-parent-menu-item">
                   {/* <Link to="#" onClick={() => this.setState({ landing: !this.state.landing })}>Landing</Link><span className="menu-arrow"></span> */}
                   <ul className={classnames("submenu megamenu", { open: this.state.landing })}>
@@ -843,6 +839,26 @@ class Topbar extends Component {
                   </ul>
                 </li>
 
+                <li className="has-submenu parent-menu-item">
+                  <Link to="#" onClick={() => this.setState({ doc: !this.state.doc })}>Community</Link><span className="menu-arrow"></span>
+               <ul className={classnames("submenu", { open: this.state.components })}>
+                    <li>
+                      <ul>
+                        <li><Link to="#" className="sub-menu-item"> Telegram <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span></Link></li>
+                        <li><Link to="#" className="sub-menu-item"> Discord <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span></Link></li>
+                        <li><Link to="#" className="sub-menu-item"> Reddit <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span></Link></li>
+                      </ul>
+                    </li>
+                    </ul>
+                </li>
+
+
                 <li className="has-submenu parent-parent-menu-item">
                   {/* <Link to="#" onClick={() => this.setState({ components: !this.state.components })}>Components</Link><span className="menu-arrow"></span> */}
                   <ul className={classnames("submenu megamenu", { open: this.state.components })}>
@@ -897,11 +913,15 @@ class Topbar extends Component {
                 </li>
 
                 <li className="has-submenu parent-menu-item">
-                  {/* <Link to="#" onClick={() => this.setState({ doc: !this.state.doc })}>Docs</Link><span className="menu-arrow"></span> */}
+                  <Link to="#" onClick={() => this.setState({ doc: !this.state.doc })}>Docs</Link><span className="menu-arrow"></span>
                   <ul className={classnames("submenu", { open: this.state.doc })}>
-                    <li><Link to="/documentation" className="sub-menu-item">Documentation</Link></li>
-                    <li><Link to="/changelog" className="sub-menu-item">Changelog</Link></li>
-                    <li><Link to="/widget" className="sub-menu-item">Widget</Link></li>
+                    <li><Link to="https://github.com/evaafi/docs" className="sub-menu-item">Documentation</Link></li>
+                    <li><Link to="#" className="sub-menu-item">Changelog <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span></Link></li>
+                    <li><Link to="#" className="sub-menu-item">Widget <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span></Link></li>
                   </ul>
                 </li>
               </ul>

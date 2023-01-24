@@ -6,12 +6,6 @@ import { Container, Row, Col } from "reactstrap";
 import FeatherIcon from "feather-icons-react";
 
 //Images
-import client01 from "../../assets/images/client/01.jpg";
-import client02 from "../../assets/images/client/02.jpg";
-import client03 from "../../assets/images/client/03.jpg";
-import client04 from "../../assets/images/client/04.jpg";
-import client05 from "../../assets/images/client/05.jpg";
-import client06 from "../../assets/images/client/06.jpg";
 import diamond from "../../assets/images/diamond.svg";
 import mockup from "../../assets/images/mockup.svg";
 
@@ -26,7 +20,6 @@ class FeatureDescription extends Component {
       step3: false,
       step4: false,
       step5: false,
-      step6: false,
     };
     this.updateWindowSize.bind(this);
   }
