@@ -18,7 +18,7 @@ const CTA = () => {
                 Join our DeFi service with potential {" "}
                 <span className="text-primary">
                   <span className="counter-value">
-                    <CountUp end={700} delay={5} />
+                    <CountUp end={700} delay={1} />
                   </span>
                   m+
                 </span>{" "}

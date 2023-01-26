@@ -8,3 +8,56 @@
     width: 64px;
     height: 64px;
 }
+
+.main-title .heading {
+    font-size: 50px !important;
+}
+
+.main-title .heading span {
+    font-size: 80px !important;
+    letter-spacing: 15px;
+}
+
+#topnav {
+    padding: 0 5px 0 5px;
+}
+/* background-color: #27314f;
+color: #2f55d4; */
+
+
+
+.mailchimp-btn button {
+    border-radius: 5px !important;
+    padding: 8px 20px;
+    background-color: #27314f !important;
+    border: none !important;
+    color: #2f55d4;
+    margin-top: 4px;
+    margin-right: 14px;
+  }
+  
+  .input-mailchimp {
+    display: flex;
+    width: 100%;
+  }
+  .input-mailchimp ::placeholder{
+    color: #fff;
+  }
+  
+  .subscribe-form > div > div  {
+    position: absolute;
+    margin: -40px 20px auto;
+  } 
+  .subscribe-form input {
+    padding: 0;
+    width: 100%;
+    color: #fff !important;
+    border: none;
+    outline: none !important;
+    text-align: center;
+    padding-right: 0;
+    bottom: 0;
+    border-radius: 0;
+    padding-left: 0;
+    background-color: transparent !important;
+  }

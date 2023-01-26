@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, Input, Label } from 'reactstrap';
+import SubscribeFrom from 'react-mailchimp-subscribe';
 
 //Import Icons
 import FeatherIcon from "feather-icons-react";
@@ -20,8 +21,8 @@ class FooterWithoutMenuLightSocialOnly extends Component {
         <footer className={"footer footer-bar " + this.props.className}>
         <div className="footer-py-30">
           <Container className="text-center">
-            <Row className="align-items-center">
-            <Col lg={4} md={4} className="col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+            <Row className="align-items-center justify-center d-flex">
+            <Col lg={4} md={4} className="col-12">
                       <Link to="#" className="logo-footer">
                         <img
                           src={this.props.isLight ? logo : logo}
@@ -56,127 +57,62 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                         }
                       >
                         <li className="list-inline-item me-1">
-                          <Link to="https://github.com/evaafi/" className="rounded">
+                          <a href="https://github.com/evaafi/" className="rounded">
                             <FeatherIcon
                               icon="github"
                               className="fea icon-sm fea-social"
                             />
-                          </Link>
+                          </a>
                         </li>
                         <li className="list-inline-item me-1">
-                          <Link to="https://t.me/evaaprotocol" className="rounded">
+                        <a href="https://t.me/evaaprotocol" className="rounded">
                             <FeatherIcon
                               icon="navigation"
                               className="fea icon-sm fea-social"
                             />
-                          </Link>
+                          </a>
                         </li>
                         <li className="list-inline-item me-1">
-                          <Link to="#" className="rounded">
+                        <a href="#" className="rounded">
                             <FeatherIcon
                               icon="twitter"
                               className="fea icon-sm fea-social"
                             />
-                          </Link>
+                          </a>
                         </li>
                         <li className="list-inline-item me-1">
-                          <Link to="#" className="rounded">
+                        <a href="#" className="rounded">
                             <FeatherIcon
                               icon="linkedin"
                               className="fea icon-sm fea-social"
                             />
-                          </Link>
+                          </a>
                         </li>
                       </ul>
 
                       </Col>
 
 
+              <Col lg={4} md={4} className="col-12 mt-sm-0 pt-sm-0">
+             
+                  <div className="subcribe-form">
+                    <div className="ps-5 rounded border input-mailchimp mailchimp-btn subscribe-form">
 
-
-
-
-
-              <Col lg={4} md={4} className="col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                      
-                      <Form>
-                        <Row>
-                          <Col lg={12}>
-                            <div
-                              className={
-                                this.props.isLight
-                                  ? 'foot-subscribe mb-3 foot-white'
-                                  : 'foot-subscribe mb-3'
-                              }
-                            >
-                              
-                              <div className="form-icon position-relative">
-                                <FeatherIcon
+                              <div className="form-icon">
+                    <FeatherIcon
                                   icon="mail"
-                                  className="fea icon-sm icons"
+                                  className="fea icon-l icons"
                                 />
-                                <Input
-                                  type="email"
-                                  name="email"
-                                  id="emailsubscribe"
-                                  className={
-                                    this.props.isLight
-                                      ? 'form-control ps-5 rounded bg-light border'
-                                      : 'form-control ps-5 rounded'
-                                  }
-                                  placeholder="Your email : " required />
-                              </div>
-                            </div>
-                          </Col>
-                          <Col lg={12}>
-                            <div className="d-grid">
-                              <input
-                                type="submit"
-                                id="submitsubscribe"
-                                name="send"
-                                className={this.props.isLight ? "btn btn-primary" : "btn btn-soft-primary"}
-                                value="Subscribe" />
-                            </div>
-                          </Col>
-                        </Row>
-                      </Form>
+                                </div>
+                      <SubscribeFrom
+                      
+                        url="https://finance.us21.list-manage.com/subscribe/post?u=3c66105a77fffeeac355f1887&id=9320d74d2e&f_id=0032dbe1f0"
+                      />
+                      
+                    </div>
+                  </div>
+                      
                     </Col>
-              {/* <Col sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                <ul className="list-unstyled social-icon foot-social-icon text-sm-end mb-0">
-                  <li className="list-inline-item mb-0">
-                    <Link to="#" className="rounded">                      
-                        <FeatherIcon
-                          icon="facebook"
-                          className="fea icon-sm fea-social"
-                        />                     
-                    </Link>
-                  </li>{" "}
-                  <li className="list-inline-item mb-0">
-                    <Link to="#" className="rounded">                      
-                        <FeatherIcon
-                          icon="instagram"
-                          className="fea icon-sm fea-social"
-                        />                     
-                    </Link>
-                  </li>{" "}
-                  <li className="list-inline-item mb-0">
-                    <Link to="#" className="rounded">                      
-                        <FeatherIcon
-                          icon="twitter"
-                          className="fea icon-sm fea-social"
-                        />                     
-                    </Link>
-                  </li>{" "}
-                  <li className="list-inline-item mb-0">
-                    <Link to="#" className="rounded">                      
-                        <FeatherIcon
-                          icon="linkedin"
-                          className="fea icon-sm fea-social"
-                        />                     
-                    </Link>
-                  </li>                  
-                </ul>
-              </Col> */}
             </Row>
           </Container>
           </div>

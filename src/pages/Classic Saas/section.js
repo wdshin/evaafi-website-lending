@@ -16,9 +16,9 @@ const Section = () => {
         <Container>
           <Row className="align-items-center pt-5">
             <Col lg={7} md={6}>
-              <div className="title-heading">
+              <div className="title-heading main-title">
                 <h1 className="heading mb-3">
-                  EVAA <br /> Lending <br /> protocol
+                  <span>EVAA</span> <br /> Lending <br /> protocol
                 </h1>
                 <p className="para-desc text-muted">
                   The first decentralized lending protocol on TON that lets users lend or borrow assets without going to a centralized intermediary.
