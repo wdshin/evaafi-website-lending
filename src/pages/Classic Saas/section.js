@@ -18,7 +18,7 @@ const Section = () => {
             <Col lg={7} md={6}>
               <div className="title-heading main-title">
                 <h1 className="heading mb-3">
-                  <span>EVAA</span> <br /> Lending <br /> protocol
+                  <span>EVAA <br /> protocol </span>
                 </h1>
                 <p className="para-desc text-muted">
                   The first decentralized lending protocol on TON that lets users lend or borrow assets without going to a centralized intermediary.
