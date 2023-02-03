@@ -61,3 +61,9 @@ color: #2f55d4; */
     padding-left: 0;
     background-color: transparent !important;
   }
+
+  .heading span {
+    color: #2f55d4;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1rem;
+  }

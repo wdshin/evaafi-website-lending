@@ -6,6 +6,8 @@ import FeatherIcon from "feather-icons-react";
 
 import CountUp from "react-countup";
 
+import Tokenomics from "../../assets/images/tokenomics.png"
+
 const CTA = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -29,7 +31,7 @@ const CTA = () => {
               </p>
 
               <div className="mt-4">
-                <a href="https://www.youtube.com/watch?v=JNHID5Pq-sI&ab_channel=TONANADeFiHUB" className="btn btn-primary m-1">
+                <a href={Tokenomics} className="btn btn-primary m-1">
                   Tokenomics <i className="uil uil-angle-right-b"></i>
                 </a>
                 <a

@@ -384,16 +384,22 @@ const pricings = [
 
 const facilities = [
   {
-    icon: "shield",
-    title: "Smart Contracts based",
+    icon: "award",
+    title: "First on TON",
     desc:
-      "Fully decentralized DeFi platform",
+      "Evaa Protocol is the first TON blockchain lending protocol ",
   },
   {
     icon: "x",
-    title: "Cross-chain support",
+    title: "TON native and wrapped assets. ",
     desc:
-      "Evaa v1 provide various jettons and native TONCOIN",
+      "Evaa Protocol has TON and TON native tokens besides wrapped tokens from other chains",
+  },
+  {
+    icon: "shield",
+    title: "Decentralized",
+    desc:
+      "The protocol is based on smart contracts — fully decentralized ",
   },
 ];
 

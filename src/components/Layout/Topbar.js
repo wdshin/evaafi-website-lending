@@ -498,7 +498,6 @@ class Topbar extends Component {
 
                   <Link
                     to="#"
-                    target="_blank"
                     className="btn btn-primary"
                   >
                     App
@@ -514,7 +513,7 @@ class Topbar extends Component {
             <div id="navigation" style={{ display: this.state.isOpen ? 'block' : 'none' }}>
 
               <ul className="navigation-menu nav-dark" id="top-menu">
-                <li><Link to="/index" className="sub-menu-item">Home</Link></li>
+                <li><Link to="#" className="sub-menu-item">Home</Link></li>
                 
 
                 <li className="has-submenu parent-menu-item">

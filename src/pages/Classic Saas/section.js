@@ -25,8 +25,7 @@ const Section = () => {
                 </p>
                 <div className="mt-4 pt-2">
                   <Link
-                    to="#"
-                    target="_blank"
+                    to=""
                     className="btn btn-primary"
                   >
                     App

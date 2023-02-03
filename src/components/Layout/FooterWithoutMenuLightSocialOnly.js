@@ -72,7 +72,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                             />
                           </a>
                         </li>
-                        <li className="list-inline-item me-1">
+                        {/* <li className="list-inline-item me-1">
                         <a href="#" className="rounded">
                             <FeatherIcon
                               icon="twitter"
@@ -87,7 +87,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                               className="fea icon-sm fea-social"
                             />
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
 
                       </Col>

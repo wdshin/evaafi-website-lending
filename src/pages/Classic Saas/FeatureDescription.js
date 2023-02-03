@@ -257,8 +257,11 @@ class FeatureDescription extends Component {
                   ))}
 
                   <Col xs="12" className="pt-4">
-                    <Link to="#" className="btn btn-outline-primary">
+                    <Link to="" className="btn btn-outline-primary">
                       Dashboard <i className="uil uil-angle-right-b"></i>
+                      <span className="badge rounded-pill bg-danger ms-2">
+                      soon
+                    </span> 
                     </Link>
                   </Col>
                 </Row>

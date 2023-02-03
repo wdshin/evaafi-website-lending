@@ -44,8 +44,8 @@ const RoadmapData = [
   },
   {
     id: 4,
-    date: "April, 2023",
-    title: "New assets",
+    date: "June, 2023",
+    title: "Native TON stablecoin launch",
     icon: "uil uil-bitcoin",
     isClass: true,
     istextColor: true,
