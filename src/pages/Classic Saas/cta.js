@@ -35,7 +35,7 @@ const CTA = () => {
                   Tokenomics <i className="uil uil-angle-right-b"></i>
                 </a>
                 <a
-                  href="https://www.youtube.com/watch?v=JNHID5Pq-sI&ab_channel=TONANADeFiHUB"
+                  href="https://www.youtube.com/watch?v=4bRANmtYuMs"
                   className="btn btn-icon btn-pills btn-primary m-1 lightbox"
                 >
                   <FeatherIcon

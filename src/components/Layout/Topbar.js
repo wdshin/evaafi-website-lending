@@ -517,8 +517,8 @@ class Topbar extends Component {
                 
 
                 <li className="has-submenu parent-menu-item">
-                <Link to="#" onClick={() => this.setState({ doc: !this.state.doc })}>Community</Link><span className="menu-arrow"></span>
-                  <ul className={classnames("submenu", { open: this.state.doc })}>
+                <Link to="#" onClick={() => this.setState({ com: !this.state.com })}>Community</Link><span className="menu-arrow"></span>
+                  <ul className={classnames("submenu", { open: this.state.com })}>
                     <li>
                       <ul>
                         <li><a href="https://t.me/evaaprotocol" className="sub-menu-item"> Telegram </a></li>
@@ -536,7 +536,7 @@ class Topbar extends Component {
 
 
                 <li className="has-submenu parent-menu-item">
-                <a href="#" onClick={() => this.setState({ doc: !this.state.doc })}>Docs</a><span className="menu-arrow"></span>
+                <Link href="#" onClick={() => this.setState({ doc: !this.state.doc })}>Docs</Link><span className="menu-arrow"></span>
                   <ul className={classnames("submenu", { open: this.state.doc })}>
                     <li><a href="https://github.com/evaafi/docs" className="sub-menu-item">Documentation</a></li>
                     <li><a href="#" className="sub-menu-item">Changelog <span className="badge rounded-pill bg-danger ms-2">
