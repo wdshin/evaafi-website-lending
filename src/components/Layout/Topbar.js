@@ -59,6 +59,7 @@ class Topbar extends Component {
       components: false,
       demo: false,
       doc: false,
+      com: false,
       pages: false,
       company: false,
       account: false,

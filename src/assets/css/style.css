@@ -15,7 +15,7 @@
 
 .main-title .heading span {
     font-size: 80px !important;
-    letter-spacing: 15px;
+    letter-spacing: 7px;
 }
 
 #topnav {
@@ -65,5 +65,4 @@ color: #2f55d4; */
   .heading span {
     color: #2f55d4;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 0.2rem;
   }
